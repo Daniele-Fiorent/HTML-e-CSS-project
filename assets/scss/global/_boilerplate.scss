@@ -27,6 +27,9 @@ img, picture, video, canvas, svg {
 body {
     min-height: 100svh;
     line-height: 1.5;
+    background: var(--bg-color); 
+    background: var(--bg-gradient);
+    color: var(--text-color);
   }
 
 /* Set shorter line heights on headings and interactive elements */
