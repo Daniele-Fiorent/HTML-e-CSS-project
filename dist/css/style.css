@@ -53,4 +53,65 @@ a {
 }
 a:hover {
   cursor: pointer;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-bottom: 0.5px solid white;
+}
+
+.navbar-brand {
+  color: var(--text-color);
+}
+
+.nav-link {
+  color: var(--text-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.nav-link-contacts {
+  color: var(--accent-color);
+}
+
+.nav-link-contacts:hover {
+  color: var(--btn-hover);
+  box-shadow: 0 4px 8px rgba(34, 80, 46, 0.3); /* Ombra con trasparenza */
+}
+
+.logo {
+  max-width: 3.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(-0.08turn);
+}
+
+.brand-name {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: none;
+}
+@media (min-width: 768px) {
+  .brand-name {
+    display: block;
+  }
+}
+
+.btn {
+  background: var(--accent-color);
+  color: #000;
+}
+
+.btn:hover {
+  background: var(--btn-hover);
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
