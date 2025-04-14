@@ -118,14 +118,34 @@ h1 {
   }
 }
 
-.btn {
+.my-btn {
   background: var(--accent-color);
   color: #000;
   text-transform: uppercase;
   font-size: 1.125rem;
+  border: none;
+  border-radius: 2rem;
+  padding-inline: 1.7rem;
+  transition: all 0.2s ease;
 }
 
-.btn:hover {
+.my-btn:hover,
+.my-btn:active,
+.my-btn:focus,
+.my-btn:checked {
   background: var(--btn-hover);
   color: #000;
+}
+
+.my-btn:active,
+.my-btn:focus,
+.my-btn:checked,
+.my-btn.active,
+.my-btn.show,
+.my-btn:focus-visible {
+  background: var(--btn-hover) !important;
+  color: #000 !important;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
